@@ -1,0 +1,73 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+
+header{
+   background-color: grey;
+}
+
+div{
+   width: 100px;
+   height: 50px;
+   background-color: darkturquoise;
+   margin: 5px;
+   font-size: 2rem;
+   font-weight: bold;
+}
+nav{
+   background-color: grey;
+   padding: 5px;
+
+}
+
+span{
+   padding: 5px 25px;
+   font-size: 1,25rem;
+   background-color: darkturquoise;
+   border-radius: 3px;
+   margin: 10px;
+}
+aside{
+   padding: 10px;
+   width: 25%;
+}
+section{
+   background-color: burlywood;
+   padding: 20px;
+   width: 75%;
+   height: 150vh;
+}
+.main-flex{
+   display: flex;
+
+}
+
+.padre-flex{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+.menu-flex{
+   display: flex;
+   flex-direction: column wrap ;
+   justify-content: space-evenly;
+   align-items: stretch;
+}
+.columna{
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: space-between;
+}
+.galeria-flex{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-end;
+   align-items: center ;
+}
+
+.hijo-flex{
+   order: -1;
+}

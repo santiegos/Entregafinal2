@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+    padding: 0%;
+}
+body{
+font-family: sans-serif;
+}
+p{
+background-color: rgba(0, 255, 238, 0.413);
+}
+.ancho{
+    width: 50%;
+    height: 100vh;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    background-color: burlywood;
+    color: aliceblue;
+    font-size: 4rem;
+    width: 100%;
+}
+h2{
+    background-color: burlywood;
+    color: antiquewhite;
+}
+main{
+background-color: burlywood;
+}
+.margen{
+    margin:10px 15px
+}
+.margen-interno{
+    padding: 20px;
+}
+.festival{
+    width: 50%;
+}
+.borde{
+border: 10px solid cornflowerblue;
+}
+.primera li{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+.primera >li:hover{
+    background-color: darkgoldenrod;
+}
+.segunda{
+    position: absolute;
+    display: none;
+}
+.primera li:hover .segunda{
+    display: block;
+}
+.segunda{
+    background-color: darkseagreen;
+}
+.segunda li:hover{
+    color: darksalmon;
+}
+header{
+    width: 190px;
+    height: 200px;
+    background-image: url(lostkids.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
